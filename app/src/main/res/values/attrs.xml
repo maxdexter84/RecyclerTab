@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MrEditText">
+        <attr name="setErrorText" format="string" />
+        <attr name="setHintText" format="string" />
+        <attr name="maxLength" format="integer" />
+        <attr name="inputType" format="enum">
+            <enum name="password" value="1" />
+            <enum name="login" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MainActionButton">
+        <attr name="text" format="string" />
+        <attr name="state" format="enum">
+            <enum name="disabled" value="0" />
+            <enum name="enabled" value="1" />
+            <enum name="loading" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MrToolBar">
+        <attr name="setTitle" format="string" />
+        <attr name="bottomType" format="enum">
+            <enum name="more" value="0" />
+            <enum name="add" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TimeLineView">
+        <attr name="startHour" format="integer" />
+        <attr name="endHour" format="integer"/>
+        <attr name="startHourToShow" format="integer"/>
+        <attr name="hourHeight" format="dimension"/>
+        <attr name="topMargin" format="dimension"/>
+    </declare-styleable>
+    <declare-styleable name="EventRectangleView">
+        <attr name="isUserOwnEvent" format="boolean" />
+        <attr name="topBordersIsVisible" format="boolean" />
+        <attr name="bottomBordersIsVisible" format="boolean" />
+        <attr name="startBordersIsVisible" format="boolean" />
+        <attr name="endBordersIsVisible" format="boolean" />
+    </declare-styleable>
+</resources>
